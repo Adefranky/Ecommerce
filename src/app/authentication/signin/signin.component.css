@@ -1,0 +1,35 @@
+/* signup.component.css */
+
+/* Center-align form fields */
+mat-form-field {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px; /* Adjust the width as needed */
+}
+.Username{
+  margin-top: 200px;
+}
+/* Style the Signin button */
+.button {
+  display: inline-block;
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 550px;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Add some margin for spacing */
+}
+
+.button:hover {
+  background-color: darkred; /* Change the color on hover if desired */
+}
+
+/* Center the button */
+section {
+  text-align: center;
+}
